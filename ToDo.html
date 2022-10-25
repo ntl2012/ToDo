@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main{
+            display: block;
+            margin: auto;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #dc1919;
+            border-radius: 25px;
+            background-color: rgb(250, 250, 250);
+        }
+       .opt-1{
+            display: flex;
+            justify-content: space-between;
+       }
+       .opt-2{
+            display: flex;
+            justify-content: space-between;
+       }
+       .opt-3{
+            display: flex;
+            justify-content: space-between;
+       }
+       .button{
+            display: block;
+            margin: auto 7%;
+       }
+       .addButton{
+            width: 250px;
+            height: 35px;
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-radius: 10px;
+       }
+       section div{
+            margin: 0px 10px 14px 8px;
+       }
+       header h1{
+            margin: 16px 8px 30px 18px;
+       }
+       .text{
+            position: relative;
+            bottom: 4px;
+            cursor: pointer;
+       }
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="main-1">
+            <header class="start">
+
+                <h1>  ToDo  </h1>
+
+            </header>
+
+
+            <section>
+                
+
+                <div class="opt-1">
+                    <div class="op1-left"> <input type="radio" disabled> <span> Finish writing doc </span> </div>
+                    <div class="opt1-right"> <span class="text"> ... </span> </div>
+                </div>
+                <div class="opt-2">
+                    <div class="opt2-left"> <input type="radio" disabled> <span> Share update with team </span> </div>
+                    <div class="opt2-right"> <span class="text"> ... </span> </div>
+                </div>
+                <div class="opt-3">
+                    <div class="opt3-left"> <input type="radio" disabled> <span> Pre-Launch checklist </span> </div>
+                    <div class="opt3-right"> <span class="text"> ... </span> </div>
+                </div>
+
+            </section>
+
+
+            <footer>
+
+                <div class="button">
+                    <input type="button" value="Add ToDo" class="addButton">
+                </div>
+
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
